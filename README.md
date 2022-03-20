@@ -14,7 +14,7 @@
     <sup>3</sup>Shanghai AI Laboratory
 </div>
 
-<h3>CVPR 2022</h3>
+<strong>Accepted to <a href='https://cvpr2022.thecvf.com' target='_blank'>CVPR 2022</a></strong>
 
 <img src="assets/teaser.png">
 
@@ -23,9 +23,9 @@ This repository contains the official implementation of _Versatile Multi-Modal P
 ---
 
 <p align="center">
-  <a href="">arXiv</a> •
-  <a href="">Project Page</a> •
-  <a href="">Dataset</a>
+  <a href="" target='_blank'>arXiv</a> •
+  <a href="https://hongfz16.github.io/projects/HCMoCo.html" target='_blank'>Project Page</a> •
+  <a href="pycontrast/data/NTURGBD-Parsing-4K/README.md" target='_blank'>Dataset</a>
 </p>
 
 </div>
@@ -94,7 +94,7 @@ python preprocess_nturgbd.py
 ```
 
 ### 2. NTURGBD-Parsing-4K Dataset
-This dataset is for both the pre-train process and depth human parsing task. Follow the instructions [here](./pycontrast/data/NTURGBD-Parsing-4K/README.md) for the preparation of NTURGBD-Parsing-4K dataset.
+This dataset is for both the pre-train process and depth human parsing task. Follow the instructions [here](pycontrast/data/NTURGBD-Parsing-4K/README.md) for the preparation of NTURGBD-Parsing-4K dataset.
 
 
 ### 3. MPII Human Pose Dataset
