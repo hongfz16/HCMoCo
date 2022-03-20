@@ -2,17 +2,17 @@
 
 # Versatile Multi-Modal Pre-Training for Human-Centric Perception
 
-<ul>
-    <li style="display:inline"><a href='https://hongfz16.github.io/' target='_blank'>Fangzhou Hong<sup>1</sup></a>&emsp;</li>
-    <li style="display:inline">Liang Pan<sup>1</sup>&emsp;</li>
-    <li style="display:inline">Zhongang Cai<sup>1,2,3</sup>&emsp;</li>
-    <li style="display:inline"><a href='https://liuziwei7.github.io/' target='_blank'>Ziwei Liu<sup>1✉</sup></a></li>
-</ul>
-<ul>
-    <li style="display:inline"><sup>1</sup>S-Lab, Nanyang Technological University&emsp;</li>
-    <li style="display:inline"><sup>2</sup>SenseTime Research&emsp;</li>
-    <li style="display:inline"><sup>3</sup>Shanghai AI Laboratory</li>
-</ul>
+<div>
+    <a href='https://hongfz16.github.io/' target='_blank'>Fangzhou Hong<sup>1</sup></a>&emsp;
+    Liang Pan<sup>1</sup>&emsp;
+    Zhongang Cai<sup>1,2,3</sup>&emsp;
+    <a href='https://liuziwei7.github.io/' target='_blank'>Ziwei Liu<sup>1*</sup></a>
+</div>
+<div>
+    <sup>1</sup>S-Lab, Nanyang Technological University&emsp;
+    <sup>2</sup>SenseTime Research&emsp;
+    <sup>3</sup>Shanghai AI Laboratory
+</div>
 
 <h3>CVPR 2022</h3>
 
@@ -21,6 +21,7 @@
 This repository contains the official implementation of _Versatile Multi-Modal Pre-Training for Human-Centric Perception_. For brevity, we name our method **HCMoCo**.
 
 ---
+
 <p align="center">
   <a href="">arXiv</a> •
   <a href="">Project Page</a> •
@@ -35,7 +36,7 @@ If you find our work useful for your research, please consider citing the paper:
 ```
 ```
 
----
+
 
 ## Updates
 
@@ -43,7 +44,7 @@ If you find our work useful for your research, please consider citing the paper:
 
 [03/2022] HCMoCo is accepted to CVPR 2022:partying_face:!
 
----
+
 
 ## Installation
 
@@ -65,7 +66,7 @@ cd pycontrast/networks/pointnet2
 python setup.py install
 ```
 
----
+
 
 ## Dataset Preparation
 
@@ -159,13 +160,13 @@ This dataset is for the depth 3D pose estimation. Download the ITOP dataset [her
     └── ...
 ```
 
----
+
 
 ## Model Zoo
 
 TBA
 
----
+
 
 ## HCMoCo Pre-train
 
@@ -188,7 +189,7 @@ For the second stage, all three proposed learning targets in HCMoCo are used to 
 
 After the two-stage pre-training, we need to extract pre-trained weights of RGB/depth encoders for transfering to downstream tasks. Specifically, please refer to `pycontrast/transfer_ckpt.py` for extracting pre-trained weights of the RGB encoder and `pycontrast/transfer_ckpt_depth.py` for that of the depth encoder.
 
----
+
 
 ## Evaluation on Downstream Tasks
 
@@ -231,7 +232,7 @@ python main.py \
     --output ${path_to_the_output_folder}
 ```
 
----
+
 
 ## Experiments on the Versatility of HCMoCo
 
@@ -254,13 +255,13 @@ cd pycontrast
 sh scripts/Versatility/train_ntusegrgbd2s_hrnet_w18_sup_rgbd_cmc1_other1.sh
 ```
 
----
+
 
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
----
+
 
 ## Acknowledgements
 
