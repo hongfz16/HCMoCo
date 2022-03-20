@@ -1,0 +1,12 @@
+numpy
+Pillow
+opencv-python
+json-tricks
+pycocotools
+scikit-image
+tensorboard_logger
+scipy
+tqdm
+h5py
+yacs
+matplotlib
