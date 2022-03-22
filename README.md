@@ -1,6 +1,6 @@
 <div align="center">
 
-# Versatile Multi-Modal Pre-Training for Human-Centric Perception
+<h1>Versatile Multi-Modal Pre-Training for<br>Human-Centric Perception</h1>
 
 <div>
     <a href='https://hongfz16.github.io/' target='_blank'>Fangzhou Hong<sup>1</sup></a>&emsp;
