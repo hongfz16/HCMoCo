@@ -34,6 +34,12 @@ This repository contains the official implementation of _Versatile Multi-Modal P
 
 If you find our work useful for your research, please consider citing the paper:
 ```
+@article{hong2022hcmoco,
+  title={Versatile Multi-Modal Pre-Training for Human-Centric Perception},
+  author={Hong, Fangzhou and Pan, Liang and Cai, Zhongang and Liu, Ziwei},
+  journal={arXiv preprint arXiv:2203.13815},
+  year={2022}
+}
 ```
 
 
