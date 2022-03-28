@@ -23,7 +23,7 @@ This repository contains the official implementation of _Versatile Multi-Modal P
 ---
 
 <p align="center">
-  <a href="" target='_blank'>arXiv</a> •
+  <a href="https://arxiv.org/abs/2203.13815" target='_blank'>arXiv</a> •
   <a href="https://hongfz16.github.io/projects/HCMoCo.html" target='_blank'>Project Page</a> •
   <a href="pycontrast/data/NTURGBD-Parsing-4K/README.md" target='_blank'>Dataset</a>
 </p>
