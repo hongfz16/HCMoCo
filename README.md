@@ -1,6 +1,6 @@
 <div align="center">
 
-# Versatile Multi-Modal Pre-Training for Human-Centric Perception
+<h1>Versatile Multi-Modal Pre-Training for<br>Human-Centric Perception</h1>
 
 <div>
     <a href='https://hongfz16.github.io/' target='_blank'>Fangzhou Hong<sup>1</sup></a>&emsp;
@@ -14,7 +14,7 @@
     <sup>3</sup>Shanghai AI Laboratory
 </div>
 
-<strong>Accepted to <a href='https://cvpr2022.thecvf.com' target='_blank'>CVPR 2022</a></strong>
+<strong>Accepted to <a href='https://cvpr2022.thecvf.com' target='_blank'>CVPR 2022</a> (Oral)</strong>
 
 <img src="assets/teaser.png">
 
@@ -23,7 +23,7 @@ This repository contains the official implementation of _Versatile Multi-Modal P
 ---
 
 <p align="center">
-  <a href="" target='_blank'>arXiv</a> •
+  <a href="https://arxiv.org/abs/2203.13815" target='_blank'>arXiv</a> •
   <a href="https://hongfz16.github.io/projects/HCMoCo.html" target='_blank'>Project Page</a> •
   <a href="pycontrast/data/NTURGBD-Parsing-4K/README.md" target='_blank'>Dataset</a>
 </p>
@@ -34,6 +34,12 @@ This repository contains the official implementation of _Versatile Multi-Modal P
 
 If you find our work useful for your research, please consider citing the paper:
 ```
+@article{hong2022hcmoco,
+  title={Versatile Multi-Modal Pre-Training for Human-Centric Perception},
+  author={Hong, Fangzhou and Pan, Liang and Cai, Zhongang and Liu, Ziwei},
+  journal={arXiv preprint arXiv:2203.13815},
+  year={2022}
+}
 ```
 
 
@@ -42,7 +48,7 @@ If you find our work useful for your research, please consider citing the paper:
 
 [03/2022] Code release!
 
-[03/2022] HCMoCo is accepted to CVPR 2022:partying_face:!
+[03/2022] HCMoCo is accepted to CVPR 2022 for **Oral** presentation:partying_face:!
 
 
 
@@ -267,10 +273,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 This work is supported by NTU NAP, MOE AcRF Tier 2 (T2EP20221-0033), and under the RIE2020 Industry Alignment Fund – Industry Collaboration Projects (IAF-ICP) Funding Initiative, as well as cash and in-kind contribution from the industry partner(s).
 
-We thank the following repositories for their contributions in our implementation:
-
-- [CMC](https://github.com/HobbitLong/CMC)
-- [HRNet-Semantic-Segmentation](https://github.com/HRNet/HRNet-Semantic-Segmentation)
-- [SemGCN](https://github.com/garyzhao/SemGCN)
-- [PointNet2.PyTorch](https://github.com/sshaoshuai/Pointnet2.PyTorch)
-- [A2J](https://github.com/zhangboshen/A2J)
+We thank the following repositories for their contributions in our implementation: [CMC](https://github.com/HobbitLong/CMC), [HRNet-Semantic-Segmentation](https://github.com/HRNet/HRNet-Semantic-Segmentation), [SemGCN](https://github.com/garyzhao/SemGCN), [PointNet2.PyTorch](https://github.com/sshaoshuai/Pointnet2.PyTorch), and [A2J](https://github.com/zhangboshen/A2J).
